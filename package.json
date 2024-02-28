@@ -1,0 +1,22 @@
+{
+  "name": "nodes-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TriUbi/nodes-basic.git"
+  },
+  "author": "Trinity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TriUbi/nodes-basic/issues"
+  },
+  "homepage": "https://github.com/TriUbi/nodes-basic#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
