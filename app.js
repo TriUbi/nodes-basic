@@ -1,5 +1,7 @@
-const showMessage = (message) => {
-return message
-}
+const http = require('http')
 
-console.log(showMessage('Hello People'));
+const server = http.createServer((request, response)=> {
+response.end('Välkommen till min first Node.js-server')
+})
+
+server.listen(3000)
